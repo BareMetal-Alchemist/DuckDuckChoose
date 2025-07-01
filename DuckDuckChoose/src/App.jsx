@@ -39,10 +39,10 @@ function App() {
           <p>If they are your soulmate then CHOOSE them. If not then DUCK them.</p>
         </div>
         <form className="forms" onSubmit={handleSubmit} >
-          <label htmlfor="name">Name:</label>
+          <label htmlfor="name">Your Name:</label>
           <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} required/>
 
-          <label htmlfor="name2">Name:</label>
+          <label htmlfor="name2">Their Name:</label>
           <input type="text" id="name2" value={name2} onChange={(e) => setName2(e.target.value)} required/>
 
           <button type="submit">Submit</button>
