@@ -30,6 +30,10 @@ function App() {
 
   return (
    <div className="container">
+    <div id="thetitle">
+      <h1>DuckDuckChoose</h1>
+    </div>
+    
     <div id="mainform">
         <div>
           <p>If they are your soulmate then CHOOSE them. If not then DUCK them.</p>
